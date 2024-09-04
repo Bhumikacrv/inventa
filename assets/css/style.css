@@ -5370,6 +5370,14 @@ input.main-search-input::placeholder {
   .card-2{
     height: 330px !important;
   }
+  .line{
+    width: auto !important;
+    margin: 20px 0px !important;
+  }
+  .products{
+    display: flex;
+    flex-wrap: wrap-reverse !important;
+  }
   
 }
 .card-2{
@@ -5377,4 +5385,53 @@ input.main-search-input::placeholder {
   padding: 30px 25px;
   height: 270px;
   border-radius: 15px;
+}
+.nav-links{
+  margin-bottom: 10%;
+}
+.nav-links li{
+ 
+  font-size: 19px;
+}
+.nav-links li a i{
+  margin-right: 10px !important;
+}
+
+.headOfSection {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #242424;
+}
+.linkLine {
+  text-decoration: none;
+}
+.line {
+  margin: 20px 50px;
+  border-left: 6px solid rgba(79, 57, 139, 0.28);
+  min-height: 50px;
+  width: 645px;
+  border-radius: 5px;
+}
+
+.line h3,
+p {
+  margin-left: 10px;
+  color: rgba(79, 57, 139, 0.28);
+}
+.imgSection img {
+  max-width: 700px;
+  width: 100%;
+}
+
+.linkLine.active .line {
+  border-color: #4f398b;
+}
+
+.linkLine.active .line h3,
+.linkLine.active p {
+  color: #4f398b;
 }

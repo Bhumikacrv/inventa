@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,8 +44,8 @@
     <!-- Preloader area end -->
 
     <!-- Mouse cursor area start here -->
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
+    <!-- <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div> -->
     <!-- Mouse cursor area end here -->
 
     <!-- Top header area start here -->
@@ -77,7 +78,7 @@
                             </defs>
                         </svg>
 
-                        <a href="#0" class="ms-1">+208-6666-0112</a>
+                        <a href="#0" class="ms-1">91 9686715500</a>
                     </li>
                 </ul>
                 <ul class="link-info">
@@ -98,48 +99,23 @@
                 <a href="#" class="logo">
                     <img src="images/logo.png" alt="logo">
                 </a>
-                <div class="main-menu">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#0">Home</a>
-                               
-                            </li>
-                            <li><a href="#">About Us</a></li>
-                            <li>
-                                <a href="#0">Products Categories </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="#">Smart Gadgets</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Smart Access</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Safety and security</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Smart Surveillance</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Home Automation</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Smart solution</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            
-                            <li><a href="#">Contact</a></li>
-                            
-                        </ul>
-                    </nav>
-                </div>
-                <div class="d-none d-lg-inline-block">
-                    <a href="#" class="btn-one">Call Now <i
-                            class="fa-regular fa-arrow-right-long"></i></a>
-                </div>
-                <div class="bars d-block d-lg-none">
+                
+                
+                <div class="bars d-block d-flex">
+                    <li class="mr-30 d-lg-block"><a class="search-trigger" href="#0"><svg width="20"
+                        height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_307_344)">
+                            <path
+                                d="M16.0375 14.9381L12.0784 11.0334C13.0625 9.86621 13.6554 8.36744 13.6554 6.73438C13.6554 3.02103 10.5925 0 6.82774 0C3.0629 0 0 3.02103 0 6.73438C0 10.4475 3.0629 13.4683 6.82774 13.4683C8.4834 13.4683 10.0031 12.8836 11.1865 11.913L15.1456 15.8178C15.2687 15.9393 15.4301 16 15.5915 16C15.7529 16 15.9143 15.9393 16.0375 15.8178C16.2839 15.5748 16.2839 15.181 16.0375 14.9381ZM1.26142 6.73438C1.26142 3.70705 3.75845 1.24414 6.82774 1.24414C9.89695 1.24414 12.3939 3.70705 12.3939 6.73438C12.3939 9.76146 9.89695 12.2241 6.82774 12.2241C3.75845 12.2241 1.26142 9.76146 1.26142 6.73438Z"
+                                fill="#0F0D1D" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_307_344">
+                                <rect width="16.2222" height="16" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a></li>
                     <i id="openButton" class="fa-solid fa-bars"></i>
                 </div>
             </div>
@@ -151,7 +127,7 @@
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
         <a href="#" class="logo mb-40">
-            <img src="assets/images/logo/logo.svg" alt="logo">
+            <img src="images/logo-bg.jpeg" alt="logo">
         </a>
         <div class="sidebar__search mb-30">
             <input type="text" placeholder="Search...">
@@ -159,10 +135,16 @@
         </div>
         <div class="mobile-menu overflow-hidden"></div>
         <ul class="info pt-40">
-            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">info@inventa.com</a>
+            <div class="nav-links">
+                <li><a href=""><i class="fa-regular fa-angles-right me-1"></i>Home</a></li>
+            <li><a href=""><i class="fa-regular fa-angles-right me-1"></i> About</a></li>
+            <li><a href=""> <i class="fa-regular fa-angles-right me-1"></i> Products</a></li>
+            <li><a href=""><i class="fa-regular fa-angles-right me-1"></i> Contact</a></li>
+            </div>
+            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">No. 118, 1st main, Puttanna Layout,  Near Pattalamma Temple, Horamavu-Agara Road, Bengaluru-560043.</a>
             </li>
             <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
-                    href="tel:+208-6666-0112">+208-6666-0112</a>
+                    href="tel:+208-6666-0112">91 9686715500</a>
             </li>
             <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">info@inventa.com</a></li>
         </ul>
@@ -198,41 +180,7 @@
             <div class="swiper banner__slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <!-- <div data-animation="slideInLeft" data-duration="2s" data-delay=".3s"
-                            class="banner__shape-left2">
-                            <img src="assets/images/banner/banner-regular-left-shape.png" alt="shape">
-                        </div>
-                        <div data-animation="slideInLeft" data-duration="2s" data-delay=".9s"
-                            class="banner__shape-left1">
-                            <img src="assets/images/banner/banner-solid-left-shape.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-left3 wow slideInLeft">
-                            <img class="sway__animation" src="assets/images/banner/banner-shape-left.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__shape-right2" data-animation="slideInRight" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right-line.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-right1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__right-line1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".9s">
-                            <img src="assets/images/banner/banner-right-line1.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".7s">
-                            <img src="assets/images/banner/banner-right-line2.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line3" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-right-line3.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line4" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-right-line4.png" alt="shape">
-                        </div> -->
+                       
                         <div class="slide-bg" data-background="images/1.png"></div>
                         <div class="container">
                             <div class="banner__content">
@@ -251,16 +199,7 @@
                                     class="text-white">
                                     Innovating accessible quality technology.
                                 </h1>
-                                <!-- <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing
-                                    elit
-                                    aenean scelerisque at augue vitae consequat
-                                    <br>
-                                    quisque eget congue
-                                    velit
-                                    in cursus leo sed
-                                    sodales est eget turpis.
-                                </p> -->
+                               
                                 <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="#"
                                     class="btn-one mt-60">Explore
                                     More <i class="fa-regular fa-arrow-right-long"></i></a>
@@ -268,41 +207,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <!-- <div data-animation="slideInLeft" data-duration="2s" data-delay=".3s"
-                            class="banner__shape-left2">
-                            <img src="assets/images/banner/banner-regular-left-shape.png" alt="shape">
-                        </div>
-                        <div data-animation="slideInLeft" data-duration="2s" data-delay=".9s"
-                            class="banner__shape-left1">
-                            <img src="assets/images/banner/banner-solid-left-shape.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-left3 wow slideInLeft">
-                            <img class="sway__animation" src="assets/images/banner/banner-shape-left.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__shape-right2" data-animation="slideInRight" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right-line.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-right1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__right-line1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".9s">
-                            <img src="assets/images/banner/banner-right-line1.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".7s">
-                            <img src="assets/images/banner/banner-right-line2.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line3" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-right-line3.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line4" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-right-line4.png" alt="shape">
-                        </div> -->
+                       
                         <div class="slide-bg" data-background="images/4.png"></div>
                         <div class="container">
                             <div class="banner__content">
@@ -321,16 +226,7 @@
                                     class="text-white">
                                     Pioneering Technology, Inspiring Innovation.
                                 </h1>
-                                <!-- <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing
-                                    elit
-                                    aenean scelerisque at augue vitae consequat
-                                    <br>
-                                    quisque eget congue
-                                    velit
-                                    in cursus leo sed
-                                    sodales est eget turpis.
-                                </p> -->
+                                
                                 <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="#"
                                     class="btn-one mt-60">Explore
                                     More <i class="fa-regular fa-arrow-right-long"></i></a>
@@ -338,41 +234,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <!-- <div data-animation="slideInLeft" data-duration="2s" data-delay=".3s"
-                            class="banner__shape-left2">
-                            <img src="assets/images/banner/banner-regular-left-shape.png" alt="shape">
-                        </div>
-                        <div data-animation="slideInLeft" data-duration="2s" data-delay=".9s"
-                            class="banner__shape-left1">
-                            <img src="assets/images/banner/banner-solid-left-shape.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-left3 wow slideInLeft">
-                            <img class="sway__animation" src="assets/images/banner/banner-shape-left.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__shape-right2" data-animation="slideInRight" data-duration="3s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right-line.png" alt="shape">
-                        </div>
-                        <div class="banner__shape-right1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-shape-right.png" alt="shape">
-                        </div> -->
-                        <!-- <div class="banner__right-line1" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".9s">
-                            <img src="assets/images/banner/banner-right-line1.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line2" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".7s">
-                            <img src="assets/images/banner/banner-right-line2.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line3" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".5s">
-                            <img src="assets/images/banner/banner-right-line3.png" alt="shape">
-                        </div>
-                        <div class="banner__right-line4" data-animation="slideInRight" data-duration="2s"
-                            data-delay=".3s">
-                            <img src="assets/images/banner/banner-right-line4.png" alt="shape">
-                        </div> -->
+                        
                         <div class="slide-bg" data-background="images/5.png"></div>
                         <div class="container">
                             <div class="banner__content">
@@ -391,16 +253,7 @@
                                     class="text-white">
                                     Pioneering Technology, Inspiring Innovation.
                                 </h1>
-                                <!-- <p data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="mt-20">
-                                    Consectetur adipiscing
-                                    elit
-                                    aenean scelerisque at augue vitae consequat
-                                    <br>
-                                    quisque eget congue
-                                    velit
-                                    in cursus leo sed
-                                    sodales est eget turpis.
-                                </p> -->
+                               
                                 <a data-animation="slideInRight" data-duration="2s" data-delay=".9s" href="#"
                                     class="btn-one mt-60">Explore
                                     More <i class="fa-regular fa-arrow-right-long"></i></a>
@@ -452,6 +305,95 @@
             </div>
         </section>
         <!-- Counter area end here -->
+
+        <div class="container-fulid pe-5 ps-5 ">
+            <div class="row mt-5">
+              <div class="col-lg-12">
+                <h2 class="headOfSection">Our Excellent Products</h2>
+                <div class="row mt-130 products">
+                  <div class="col-lg-6">
+                    <a
+                      class="linkLine active"
+                      href="javascript:void(0);"
+                      data-src="img/home.png"
+                    >
+                      <div class="line text1">
+                        <h3>Smart Home/Office</h3>
+                        <p>
+                            Automated spaces enhancing convenience, security, and efficiency via interconnected smart devices.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      class="linkLine"
+                      href="javascript:void(0);"
+                      data-src="img/access.jpg"
+                    >
+                      <div class="line text2">
+                        <h3>Smart Access</h3>
+                        <p>
+                            Smart access enables keyless entry and remote control for enhanced security.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      class="linkLine text3"
+                      href="javascript:void(0)"
+                      data-src="img/gadget.jpg"
+                    >
+                      <div class="line">
+                        <h3>Smart Gadgets</h3>
+                        <p>
+                            Innovative devices offering enhanced functionality, connectivity, and convenience for daily life.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      class="linkLine"
+                      href="javascript:void(0)"
+                      data-src="img/smart.jpg"
+                    >
+                      <div class="line">
+                        <h3>Smart Surveillance</h3>
+                        <p>
+                            Smart surveillance uses AI for real-time monitoring, detection, and alerts.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      class="linkLine"
+                      href="javascript:void(0)"
+                      data-src="img/security.jpg"
+                    >
+                      <div class="line">
+                        <h3>Smart Safety/Security</h3>
+                        <p>
+                            Smart safety/security uses IoT for real-time monitoring and automated alerts.
+                        </p>
+                      </div>
+                    </a>
+                    <a
+                      class="linkLine"
+                      href="javascript:void(0)"
+                      data-src="img/sol.jpg"
+                    >
+                      <div class="line">
+                        <h3>Smart Solution</h3>
+                        <p>
+                            Smart solutions use technology to optimize efficiency, convenience, and performance.
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-6 imgSection">
+                    <img
+                      src="img/home.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <!-- Service area start here -->
           <section class="service-three-area pt-120 pb-120">
@@ -1380,6 +1322,16 @@
     <script src="assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        $("a.linkLine").click(function () {
+            $("a.linkLine").removeClass("active");
+            $(this).addClass("active");
+            // Changes the .image-holder's img src to the src defined in .list a's data attribute.
+            var value = $(this).data("src");
+            $(".imgSection img").attr("src", value);
+          });
+      </script>
 </body>
 
 </html>
